@@ -1,11 +1,87 @@
 .card-wrapper {
   display: flex;
   flex-direction: column;
-  width: 370px;
-  height: 335.47px;
+  width: 283.68px;
+  height: 249.13px;
 
   background: #ffffff;
   box-shadow: 0px 4.93333px 24.6667px 12.3333px rgba(195, 186, 182, 0.1);
   border-radius: 8.63333px;
   padding: 43.17px;
+
+  font-style: normal;
+  font-weight: bold;
+
+  color: #000000;
+}
+
+.card-wrapper .title {
+  font-size: 19.7333px;
+  line-height: 25px;
+
+  margin: 0 0 30.83px 0;
+}
+
+.card-wrapper .day {
+  font-size: 14.8px;
+  line-height: 19px;
+
+  margin: 0 0 6.17px 0;
+}
+
+.card-wrapper .card-date-wrapper {
+  display: flex;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19.7333px;
+  line-height: 25px;
+
+  margin: 0 0 30.83px 0;
+}
+
+.card-wrapper .card-date-wrapper .date {
+  margin: 0 43.17px 0 0;
+}
+
+.card-wrapper .card-add-to-calendar-wrapper {
+  display: flex;
+  align-items: center;
+
+  color: #3863fc;
+  margin: 0 0 24.67px -4.94px;
+
+  user-select: none;
+}
+
+.card-wrapper .card-add-to-calendar-wrapper:hover {
+  color: #7e9aff;
+  cursor: pointer;
+}
+
+.card-wrapper .card-add-to-calendar-wrapper:active {
+  color: #0037ff;
+}
+
+.card-wrapper .card-add-to-calendar-wrapper .text {
+  font-size: 14.8px;
+  line-height: 19px;
+
+  margin: 0 0 0 1.23px;
+}
+
+.card-wrapper .note {
+  background: #ebefff;
+  border-radius: 6.16667px;
+  padding: 12.33px 30.83px 12.33px 12.33px;
+}
+
+.card-wrapper .note .text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.8px;
+  line-height: 20px;
+
+  opacity: 0.8;
 }

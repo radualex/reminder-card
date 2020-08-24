@@ -4,8 +4,8 @@ import "./Card.css";
 export default function Card() {
   return (
     <div className="card-wrapper">
-      <span>Viewing</span>
-      <span>Wed</span>
+      <span className="title">Viewing</span>
+      <span className="day">Wed</span>
       <div className="card-date-wrapper">
         <span className="date">August 26</span>
         <span className="time">17:00 - 18:00</span>
