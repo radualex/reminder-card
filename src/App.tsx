@@ -6,7 +6,7 @@ import Card from "./Card/Card";
 export default function App() {
   return (
     <div className="App">
-      <Card />
+      <Card date={new Date()} />
     </div>
   );
 }
