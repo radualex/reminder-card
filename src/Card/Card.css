@@ -1,0 +1,11 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 335.47px;
+
+  background: #ffffff;
+  box-shadow: 0px 4.93333px 24.6667px 12.3333px rgba(195, 186, 182, 0.1);
+  border-radius: 8.63333px;
+  padding: 43.17px;
+}

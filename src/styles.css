@@ -1,3 +1,7 @@
+* {
+  font-family: Muli;
+}
+
 .App {
   width: 99vw;
   height: 99vh;
@@ -5,4 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background: #e5e5e5;
 }
